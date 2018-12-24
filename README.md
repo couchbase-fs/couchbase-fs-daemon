@@ -34,3 +34,6 @@ in many cases you probally want to use and supply credentials for example to use
 
 there are millions of ways to solve that this needs evaluation we have some opinionated ways to do that but your free
 
+## Exports
+couchbase-fs supports exports to messagepack/zlib and clear text json
+they can be stored anywhere on a filesystem or cloud 
