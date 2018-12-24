@@ -36,4 +36,4 @@ there are millions of ways to solve that this needs evaluation we have some opin
 
 ## Exports
 couchbase-fs supports exports to messagepack/zlib and clear text json
-they can be stored anywhere on a filesystem or cloud 
+they can be stored anywhere on a filesystem or cloud to be more save you should maybe crypto them befor uploading them to the cloud via couchbase-fs-crypto that can store crypted data directly into couchbase-fs if that gets exported its still save.
