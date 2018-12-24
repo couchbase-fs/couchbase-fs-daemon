@@ -22,10 +22,15 @@ a file-key has only 2 key filds called data and formart all other meta goes into
 for chunked data we have formart.chunked === true that indicated that there are file-key-num entrys and allows more easy fetching of big files. It makes less sense to store big files in this filesystem as it will disable some futures like deduplication that is a build in future of couchbase-fs
 
 ```js
-
-
 {
 formart:
 data:
 }
 ```
+
+
+## Manage Credentials
+in many cases you probally want to use and supply credentials for example to use them with your protocol definitions in your meta-key's
+
+there are millions of ways to solve that this needs evaluation we have some opinionated ways to do that but your free
+
